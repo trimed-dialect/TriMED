@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tbx type="TBX-Trimed" style="dct" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2" xmlns:min="http://www.tbxinfo.net/ns/min" xmlns:basic="http://www.tbxinfo.net/ns/basic" xmlns:trimed="http://www.trimed.org/ns/sample">
+        <tbxHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>A sample of the TriMED termbase consisting of one concept entry</p>
+            </sourceDesc>
+        </fileDesc>
+    </tbxHeader>      
+    <text>
+        <body>
+            <conceptEntry id="c1">
+            <transacGrp>
+                <basic:transactionType>origination</basic:transactionType>
+                <date>2019-05-15</date>
+                <basic:responsibility>Federica</basic:responsibility>
+            </transacGrp>
+                
+            <transacGrp>
+                <basic:transactionType>modification</basic:transactionType>
+                <date>2019-05-16</date>
+                <basic:responsibility>Federica</basic:responsibility>
+            </transacGrp>
+                
+                <min:subjectField>medicine</min:subjectField>
+                <note>NA</note>
+                <trimed:superordinateConcept>NA</trimed:superordinateConcept>
+                <trimed:subordinateConcept>NA</trimed:subordinateConcept>
+                
+                <langSec xml:lang="en">
+                    <descripGrp>
+                        <basic:definition>The identification of diseases by the examination of symptoms 
+                            and signs and by other investigations.</basic:definition>
+                        <basic:source>https://www.thefreedictionary.com/diagnosis</basic:source>
+                        <trimed:semicAnalysis>/identification//disease//examination//symptoms/</trimed:semicAnalysis>
+                    </descripGrp>
+                    
+                    <termSec>
+                        <term>diagnosis</term>
+     
+                        <min:partOfSpeech>noun</min:partOfSpeech>
+                        <basic:grammaticalGender>neuter</basic:grammaticalGender>
+                        <basic:crossReference>NA</basic:crossReference>
+                        <trimed:grammaticalNumber>plural</trimed:grammaticalNumber>
+                        <trimed:derivative>to diagnose, diagnostic, prediagnosis, prediagnoses</trimed:derivative>
+                        <trimed:pronunciation>d′ɪəg-nō′sɪs</trimed:pronunciation>
+                        <trimed:etymology>Medical Latin application of Greek diagnosis "a discerning, 
+                            distinguishing," from stem of diagignoskein "discern, distinguish," literally 
+                            "to know thoroughly" or "know apart (from another)," from dia "between" 
+                            (see dia-) + gignoskein "to learn, to come to know," from PIE root *gno- "to know."</trimed:etymology>
+                        <trimed:variant>NA</trimed:variant>
+                        <trimed:abbreviation>dx</trimed:abbreviation>
+                        <trimed:fullForm>NA</trimed:fullForm>
+                        <trimed:acronym>NA</trimed:acronym>
+                        <trimed:synonym_vernacular>identification; discovery; recognition; pinpointing; detection.</trimed:synonym_vernacular>
+                        <trimed:register>technicalRegister</trimed:register>
+                        <trimed:commonName>...</trimed:commonName>
+                        <trimed:scientific_name>...</trimed:scientific_name>
+                        <trimed:hyponym>...</trimed:hyponym>
+                        <trimed:hyperoym>...</trimed:hyperoym>
+                        <trimed:phraseological_unit>...</trimed:phraseological_unit>
+                        <trimed:collocation>confirm a d., receive a d.</trimed:collocation>
+                        <trimed:colligation>...</trimed:colligation>
+                       
+                        <descripGrp>
+                            <basic:context>The accurate diagnosis of rib 
+                                fractures is important in chest trauma </basic:context>
+                            <basic:source>https://www.ncbi.nlm.nih.gov/pubmed/29715707</basic:source>
+                        </descripGrp>
+                    </termSec>
+                   </langSec>
+                
+                <langSec xml:lang="fr">
+                    <descripGrp>
+                        <basic:definition>Connaissance que l'on peut avoir d'une maladie 
+                            en observant les signes de celle-ci; art du diagnostic.</basic:definition>
+                        <basic:source>https://www.cnrtl.fr/definition/diagnose</basic:source>
+                        <trimed:semicAnalysis>/diagnose//étude//maladie//symptôme//médecine/</trimed:semicAnalysis>
+                    </descripGrp>
+                    
+                    <termSec>
+                        <term>diagnose</term>
+                        <min:partOfSpeech>nom</min:partOfSpeech>
+                        <basic:grammaticalGender>féminin</basic:grammaticalGender>
+                        <basic:crossReference>NA</basic:crossReference>
+                        <trimed:grammaticalNumber>singulier</trimed:grammaticalNumber>
+                        <trimed:derivative>diagnostic, diagnostique, diagnostiquer</trimed:derivative>
+                        <trimed:pronunciation>\djagno:z\</trimed:pronunciation>
+                        <trimed:etymology>Dér. du rad. du lat. impérial congenitus 
+                            « né avec »; suff. -al:  remonte au lat. -lis (-lem), finale adj. 
+                            attachée à un rad. subst.</trimed:etymology>
+                        <trimed:variant>NA</trimed:variant>
+                        <trimed:abbreviation>NA</trimed:abbreviation>
+                        <trimed:fullForm>NA</trimed:fullForm>
+                        <trimed:acronym>NA</trimed:acronym>
+                        <trimed:synonym_vernacular>diagnostic</trimed:synonym_vernacular>
+                        <trimed:register>registreTechnique</trimed:register>
+                        <trimed:commonName>...</trimed:commonName>
+                        <trimed:scientific_name>...</trimed:scientific_name>
+                        <trimed:hyponym>...</trimed:hyponym>
+                        <trimed:hyperoym>...</trimed:hyperoym>
+                        <trimed:phraseological_unit>...</trimed:phraseological_unit>
+                        <trimed:collocation>faire une diagnose, effectuer une diagnose</trimed:collocation>
+                        <trimed:colligation>...</trimed:colligation>
+                        
+                        <descripGrp>
+                            <basic:context>Les courbes de température (...) 
+                                ne sont pas suffisamment typiques pour qu'elles puissent servir à la diagnose.</basic:context>
+                            <basic:source>https://www.lalanguefrancaise.com/dictionnaire/definition-diagnose/</basic:source>
+                        </descripGrp>
+                    </termSec>
+                </langSec>
+                
+                
+                <langSec xml:lang="it">
+                    <descripGrp>
+                        <basic:definition>Procedura consistente nell’interpretazione di segni e sintomi 
+                            raccolti quali manifestazioni di un processo patologico in atto o pregresso.</basic:definition>
+                        <basic:source>http://www.treccani.it/enciclopedia/diagnosi_%28Dizionario-di-Medicina%29/</basic:source>
+                        <trimed:semicAnalysis>/medicina//ricerca//riconoscimento//condizione//patologia/</trimed:semicAnalysis>
+                    </descripGrp>
+                    
+                    <termSec>
+                        <term>diagnosi</term>
+                        
+                        <min:partOfSpeech>nome</min:partOfSpeech>
+                        <basic:grammaticalGender>femminile</basic:grammaticalGender>
+                        <basic:crossReference>NA</basic:crossReference>
+                        <trimed:grammaticalNumber>singolare</trimed:grammaticalNumber>
+                        <trimed:derivative>diagnostica, autodiagnosi</trimed:derivative>
+                        <trimed:pronunciation>/di'aɲɲozi/</trimed:pronunciation>
+                        <trimed:etymology>Dal greco "riconoscere attraverso".</trimed:etymology>
+                        <trimed:variant>NA</trimed:variant>
+                        <trimed:abbreviation>dx</trimed:abbreviation>
+                        <trimed:fullForm>NA</trimed:fullForm>
+                        <trimed:acronym>NA</trimed:acronym>
+                        <trimed:synonym_vernacular>anamnesi, analisi, accertamento.</trimed:synonym_vernacular>
+                        <trimed:register>registroTecnico</trimed:register>
+                        <trimed:commonName>...</trimed:commonName>
+                        <trimed:scientific_name>...</trimed:scientific_name>
+                        <trimed:hyponym>radiodiagnosi, sierodiagnosi, xenodiagnosi.</trimed:hyponym>
+                        <trimed:hyperoym>diagnostica.</trimed:hyperoym>
+                        <trimed:phraseological_unit>Verb: avere una D, accettare, confermare, emettere, fare, formulare, smentire, fornire, portare, 
+                            porre, pronunciare, proporre, riservare, rischiare, sbagliare D.</trimed:phraseological_unit>
+                        <trimed:collocation>Agg:allarmante, confermata, imperfetta, definitiva, 
+                            difficile, errata, falsa, formale, implacabile, inquietante, giusta, 
+                            lucida, minuziosa, ponderata, oggettiva, ottimista, pessimista, precisa, 
+                            precoce, rassicurante, sicura, tetra,verosimile.</trimed:collocation>
+                        <trimed:colligation>...</trimed:colligation>
+                        
+                        <descripGrp>
+                            <basic:context>La diagnosi precoce permette di individuare tumori 
+                                molto piccoli e non ancora diffusi agli organi vicini, per cui 
+                                l’esito delle cure in molti casi è migliore o addirittura risolutivo, 
+                                ma il tumore è comunque già presente."</basic:context>
+                            <basic:source>https://www.airc.it/cancro/prevenzione-tumore/diagnosi-precoce/cancro-diagnosi-cosa-significa</basic:source>
+                        </descripGrp>
+                    </termSec>
+                </langSec>
+                
+            </conceptEntry>
+        </body>
+    </text>
+</tbx>
