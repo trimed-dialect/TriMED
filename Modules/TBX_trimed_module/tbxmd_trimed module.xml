@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbxmd module="Trimed" ns="http://www.trimed.org/ns/sample">
+    <header>
+        <title>Trimed module</title>
+    </header>
+    <datCatSet>
+        <descripSpec name="superordinateConcept" datcatId="http://www.isocat.org/datcat/DC-495">
+            <levels>
+                <level>conceptEntry</level>
+            </levels>
+            <content datatype="PCDATA"/>
+        </descripSpec>
+        <descripSpec name="subordinateConcept" datcatId="http://www.isocat.org/datcat/DC-490">
+            <levels>
+                <level>conceptEntry</level>
+                </levels>
+            <content datatype="PCDATA"/>
+        </descripSpec>
+        <descripSpec name="semicAnalysis" trimedDCRId="1">
+            <levels>
+                <level>langSec</level>
+            </levels>
+            <content datatype="PCDATA"/>
+        </descripSpec>
+        
+        <xref name="externalCrossReference" datcatId="http://www.isocat.org/datcat/DC-226">
+            <levels>
+                <level>conceptEntry</level>
+            </levels>
+            <content datatype="picklist">
+                <value>icpc2_code</value>
+                <value>icd10_code</value>
+                <value>snomed</value>
+                <value>mesh</value>
+            </content>
+        </xref>
+        
+        <adminSpec name="author" datcatId="http://www.isocat.org/datcat/DC-4115">
+            <levels>
+                <level>conceptEntry</level>
+            </levels>
+            <content datatype="PCDATA"/>
+        </adminSpec>
+        
+        <adminSpec name="updatedBy" datcatId="http://www.isocat.org/datcat/DC-524">
+            <levels>
+                <level>conceptEntry</level>
+            </levels>
+            <content datatype="PCDATA"/>
+        </adminSpec>
+        
+        <termNoteSpec name="grammaticalNumber" datcatId="http://www.isocat.org/datcat/DC-1298">
+            <content datatype="picklist">
+                <value>singular</value>
+                <value>plural</value>
+                <value>dual</value>
+                <value>mass</value>
+                <value>otherNumber</value>
+            </content>
+        </termNoteSpec>
+        
+        <termNoteSpec name="derivative" datcatId="http://www.isocat.org/datcat/DC-4611">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="pronunciation" datcatId="http://www.isocat.org/datcat/DC-407">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="etymology" datcatId="http://www.isocat.org/datcat/DC-5663">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="variant" datcatId="http://www.isocat.org/datcat/DC-330">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="abbreviation" datcatId="http://www.isocat.org/datcat/DC-1418">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="fullForm" datcatId="http://www.isocat.org/datcat/DC-321">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="acronym" datcatId="http://www.isocat.org/datcat/DC-334">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="synonym_vernacular" datcatId="http://www.isocat.org/datcat/DC-3761">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="register" datcatId="http://www.isocat.org/datcat/DC-423">
+            <content datatype="picklist">
+                <value>colloquialRegister</value>
+                <value>neutralRegister</value>
+                <value>technicalRegister</value>
+                <value>in-houseRegister</value>
+                <value>bench-levelRegister</value>
+                <value>slangRegister</value>
+                <value>vulgarRegister</value>
+            </content>
+        </termNoteSpec>
+        
+        <termNoteSpec name="commonName" datcatId="http://www.isocat.org/datcat/DC-328">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="scientific_name" datcatId="http://www.isocat.org/datcat/DC-3754">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="domainExpert" datcatId="http://www.isocat.org/datcat/DC-196">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="hyponym" trimedDCRId="2">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="hyperonym" trimedDCRId="3">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="phraseological_unit" trimedDCRId="4">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="collocation" trimedDCRId="5">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+        <termNoteSpec name="colligation" trimedDCRId="6">
+            <content datatype="PCDATA"/>
+        </termNoteSpec>
+        
+    </datCatSet>
+</tbxmd>
